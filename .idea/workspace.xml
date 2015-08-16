@@ -4,6 +4,13 @@
     <shared>
       <config />
     </shared>
+    <layouts>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_poisearch.xml">
+        <config>
+          <theme>@android:style/Theme</theme>
+        </config>
+      </layout>
+    </layouts>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="437eb971-6b9f-4ceb-b26a-ea4966692517" name="Default" comment="" />
@@ -36,61 +43,93 @@
       <file leaf-file-name="PoiSearchDemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/baidumapsdk/demo/PoiSearchDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.892858">
-              <caret line="318" column="9" selection-start-line="318" selection-start-column="9" selection-end-line="318" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="529" column="0" selection-start-line="529" selection-start-column="0" selection-end-line="529" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2820#3652#0" expanded="true" />
-                <element signature="e#3651#3652#0" expanded="true" />
-                <element signature="e#8930#8931#0" expanded="true" />
-                <element signature="e#8954#8955#0" expanded="true" />
+                <element signature="method#onCreate#0;class#PoiSearchDemo#0" expanded="false" />
+                <element signature="e#4612#5444#0" expanded="true" />
+                <element signature="e#5443#5444#0" expanded="true" />
+                <element signature="method#SearchButtonProcess#0;class#PoiSearchDemo#0" expanded="false" />
+                <element signature="method#bookBatt#0;class#PoiSearchDemo#0" expanded="false" />
+                <element signature="method#nodeClick#0;class#PoiSearchDemo#0" expanded="false" />
+                <element signature="method#onGetWalkingRouteResult#0;class#PoiSearchDemo#0" expanded="false" />
+                <element signature="method#onGetTransitRouteResult#0;class#PoiSearchDemo#0" expanded="false" />
+                <element signature="method#onGetDrivingRouteResult#0;class#PoiSearchDemo#0" expanded="false" />
+                <element signature="class#MyLocationListenner#0;class#PoiSearchDemo#0" expanded="false" />
+                <element signature="method#onDestroy#0;class#PoiSearchDemo#0" expanded="false" />
+                <element signature="method#onRestoreInstanceState#0;class#PoiSearchDemo#0" expanded="false" />
+                <element signature="method#searchButtonProcess#0;class#PoiSearchDemo#0" expanded="false" />
+                <element signature="method#onGetPoiResult#0;class#PoiSearchDemo#0" expanded="false" />
+                <element signature="method#onGetSuggestionResult#0;class#PoiSearchDemo#0" expanded="false" />
+                <element signature="class#MyPoiOverlay#0;class#PoiSearchDemo#0" expanded="false" />
+                <element signature="e#17223#17224#0" expanded="true" />
+                <element signature="e#17247#17248#0" expanded="true" />
+                <element signature="class#MyWalkingRouteOverlay#0;class#PoiSearchDemo#0" expanded="false" />
+                <element signature="class#MyDrivingRouteOverlay#0;class#PoiSearchDemo#0" expanded="false" />
+                <element signature="class#MyTransitRouteOverlay#0;class#PoiSearchDemo#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CloudSearchDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/baidumapsdk/demo/CloudSearchDemo.java">
+      <file leaf-file-name="RoutePlanDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/baidumapsdk/demo/RoutePlanDemo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CloudSearchActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/baidumapsdk/demo/CloudSearchActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.32795697">
-              <caret line="44" column="39" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="39" />
+              <caret line="45" column="18" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="18" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2010#2011#0" expanded="true" />
-                <element signature="e#2072#2406#0" expanded="true" />
-                <element signature="e#2405#2406#0" expanded="true" />
-                <element signature="e#2468#2812#0" expanded="true" />
-                <element signature="e#2811#2812#0" expanded="true" />
-                <element signature="e#2874#3162#0" expanded="true" />
-                <element signature="e#3161#3162#0" expanded="true" />
+                <element signature="method#nodeClick#0;class#RoutePlanDemo#0" expanded="false" />
+                <element signature="method#changeRouteIcon#0;class#RoutePlanDemo#0" expanded="false" />
+                <element signature="method#onGetWalkingRouteResult#0;class#RoutePlanDemo#0" expanded="false" />
+                <element signature="method#onGetTransitRouteResult#0;class#RoutePlanDemo#0" expanded="false" />
+                <element signature="method#onGetDrivingRouteResult#0;class#RoutePlanDemo#0" expanded="false" />
+                <element signature="class#MyDrivingRouteOverlay#0;class#RoutePlanDemo#0" expanded="false" />
+                <element signature="class#MyWalkingRouteOverlay#0;class#RoutePlanDemo#0" expanded="false" />
+                <element signature="class#MyTransitRouteOverlay#0;class#RoutePlanDemo#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_poisearch.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="activity_poisearch.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_poisearch.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.6666665">
-              <caret line="79" column="15" selection-start-line="79" selection-start-column="15" selection-end-line="79" selection-end-column="15" />
+            <state vertical-scroll-proportion="3.1559405">
+              <caret line="144" column="55" selection-start-line="144" selection-start-column="55" selection-end-line="144" selection-end-column="55" />
               <folding>
                 <element signature="n#LinearLayout#0;n#LinearLayout#0;n#!!top" expanded="false" />
                 <element signature="n#LinearLayout#1;n#LinearLayout#0;n#!!top" expanded="false" />
+                <element signature="n#com.baidu.mapapi.map.MapView#0;n#RelativeLayout#0;n#LinearLayout#0;n#!!top" expanded="false" />
+                <element signature="n#Button#0;n#RelativeLayout#0;n#LinearLayout#0;n#!!top" expanded="false" />
+                <element signature="n#LinearLayout#0;n#RelativeLayout#0;n#LinearLayout#0;n#!!top" expanded="false" />
               </folding>
             </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_routeplan.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_routeplan.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.766666">
+              <caret line="157" column="21" selection-start-line="157" selection-start-column="21" selection-end-line="157" selection-end-column="21" />
+              <folding>
+                <element signature="n#LinearLayout#0;n#LinearLayout#0;n#!!top" expanded="false" />
+                <element signature="n#LinearLayout#1;n#LinearLayout#0;n#!!top" expanded="false" />
+                <element signature="n#LinearLayout#2;n#LinearLayout#0;n#!!top" expanded="false" />
+                <element signature="n#Button#0;n#LinearLayout#2;n#LinearLayout#0;n#!!top" expanded="false" />
+                <element signature="n#Button#1;n#LinearLayout#2;n#LinearLayout#0;n#!!top" expanded="false" />
+                <element signature="n#Button#2;n#LinearLayout#2;n#LinearLayout#0;n#!!top" expanded="false" />
+                <element signature="n#LinearLayout#0;n#RelativeLayout#0;n#LinearLayout#0;n#!!top" expanded="false" />
+                <element signature="n#LinearLayout#1;n#RelativeLayout#0;n#LinearLayout#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
@@ -1454,10 +1493,18 @@
       <list>
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/baidumapsdk/demo/LocationDemo.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/baidumapsdk/demo/PoiSearchDemo.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_location.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/baidumapsdk/demo/RoutePlanDemo.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_poisearch.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/baidumapsdk/demo/PoiSearchDemo.java" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
     </option>
   </component>
   <component name="NamedScopeManager">
@@ -1493,6 +1540,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane" />
       <pane id="AndroidView">
@@ -1537,24 +1585,6 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BaiduMapsApiDemo" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
             </PATH_ELEMENT>
@@ -1563,23 +1593,8 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BaiduMapsApiDemo" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="manifests" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidManifestsGroupNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1591,6 +1606,7 @@
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="f1362c1f" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Nexus_4_API_22" />
     <property name="FullScreen" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="Onget&#9;PSI&#9;JAVA://com.baidu.mapapi.search.poi.OnGetPoiSearchResultListener" />
   </component>
   <component name="RunManager" selected="Android Application.app">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -1788,36 +1804,36 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7734242" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21124361" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21124361" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22919819" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1833,16 +1849,356 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/baidumapsdk/demo/PoiSearchDemo.java</url>
+          <line>271</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/baidumapsdk/demo/PoiSearchDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="108" column="9" selection-start-line="108" selection-start-column="9" selection-end-line="108" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#onCreate#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="e#4612#5444#0" expanded="true" />
+            <element signature="e#5443#5444#0" expanded="true" />
+            <element signature="method#SearchButtonProcess#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="method#bookBatt#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="method#nodeClick#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="method#onGetWalkingRouteResult#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="method#onGetTransitRouteResult#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="method#onGetDrivingRouteResult#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="class#MyLocationListenner#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="method#onDestroy#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="method#onRestoreInstanceState#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="method#searchButtonProcess#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="method#onGetPoiResult#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="method#onGetSuggestionResult#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="class#MyPoiOverlay#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="e#17223#17224#0" expanded="true" />
+            <element signature="e#17247#17248#0" expanded="true" />
+            <element signature="class#MyWalkingRouteOverlay#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="class#MyDrivingRouteOverlay#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="class#MyTransitRouteOverlay#0;class#PoiSearchDemo#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/app/libs/baidumapapi_v3_5_0.jar!/com/baidu/mapapi/search/route/RoutePlanSearch.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="116" column="0" selection-start-line="116" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/baidumapsdk/demo/RoutePlanDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="method#nodeClick#0;class#RoutePlanDemo#0" expanded="false" />
+            <element signature="method#changeRouteIcon#0;class#RoutePlanDemo#0" expanded="false" />
+            <element signature="method#onGetWalkingRouteResult#0;class#RoutePlanDemo#0" expanded="false" />
+            <element signature="method#onGetTransitRouteResult#0;class#RoutePlanDemo#0" expanded="false" />
+            <element signature="method#onGetDrivingRouteResult#0;class#RoutePlanDemo#0" expanded="false" />
+            <element signature="class#MyDrivingRouteOverlay#0;class#RoutePlanDemo#0" expanded="false" />
+            <element signature="class#MyWalkingRouteOverlay#0;class#RoutePlanDemo#0" expanded="false" />
+            <element signature="class#MyTransitRouteOverlay#0;class#RoutePlanDemo#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_poisearch.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+          <folding>
+            <element signature="n#LinearLayout#0;n#LinearLayout#0;n#!!top" expanded="false" />
+            <element signature="n#LinearLayout#1;n#LinearLayout#0;n#!!top" expanded="false" />
+            <element signature="n#com.baidu.mapapi.map.MapView#0;n#RelativeLayout#0;n#LinearLayout#0;n#!!top" expanded="false" />
+            <element signature="n#Button#0;n#RelativeLayout#0;n#LinearLayout#0;n#!!top" expanded="false" />
+            <element signature="n#LinearLayout#0;n#RelativeLayout#0;n#LinearLayout#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_routeplan.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="159" column="15" selection-start-line="159" selection-start-column="15" selection-end-line="159" selection-end-column="15" />
+          <folding>
+            <element signature="n#LinearLayout#0;n#LinearLayout#0;n#!!top" expanded="false" />
+            <element signature="n#LinearLayout#1;n#LinearLayout#0;n#!!top" expanded="false" />
+            <element signature="n#LinearLayout#2;n#LinearLayout#0;n#!!top" expanded="false" />
+            <element signature="n#Button#0;n#LinearLayout#2;n#LinearLayout#0;n#!!top" expanded="false" />
+            <element signature="n#Button#1;n#LinearLayout#2;n#LinearLayout#0;n#!!top" expanded="false" />
+            <element signature="n#Button#2;n#LinearLayout#2;n#LinearLayout#0;n#!!top" expanded="false" />
+            <element signature="n#LinearLayout#0;n#RelativeLayout#0;n#LinearLayout#0;n#!!top" expanded="false" />
+            <element signature="n#LinearLayout#1;n#RelativeLayout#0;n#LinearLayout#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/baidumapsdk/demo/PoiSearchDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#onCreate#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="e#4612#5444#0" expanded="true" />
+            <element signature="e#5443#5444#0" expanded="true" />
+            <element signature="method#SearchButtonProcess#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="method#bookBatt#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="method#nodeClick#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="method#onGetWalkingRouteResult#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="method#onGetTransitRouteResult#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="method#onGetDrivingRouteResult#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="class#MyLocationListenner#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="method#onDestroy#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="method#onRestoreInstanceState#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="method#searchButtonProcess#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="method#onGetPoiResult#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="method#onGetSuggestionResult#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="class#MyPoiOverlay#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="e#17223#17224#0" expanded="true" />
+            <element signature="e#17247#17248#0" expanded="true" />
+            <element signature="class#MyWalkingRouteOverlay#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="class#MyDrivingRouteOverlay#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="class#MyTransitRouteOverlay#0;class#PoiSearchDemo#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/app/libs/baidumapapi_v3_5_0.jar!/com/baidu/mapapi/search/route/RoutePlanSearch.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="116" column="19" selection-start-line="116" selection-start-column="19" selection-end-line="116" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/baidumapsdk/demo/RoutePlanDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="45" column="33" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
+          <folding>
+            <element signature="method#nodeClick#0;class#RoutePlanDemo#0" expanded="false" />
+            <element signature="method#changeRouteIcon#0;class#RoutePlanDemo#0" expanded="false" />
+            <element signature="method#onGetWalkingRouteResult#0;class#RoutePlanDemo#0" expanded="false" />
+            <element signature="method#onGetTransitRouteResult#0;class#RoutePlanDemo#0" expanded="false" />
+            <element signature="method#onGetDrivingRouteResult#0;class#RoutePlanDemo#0" expanded="false" />
+            <element signature="class#MyDrivingRouteOverlay#0;class#RoutePlanDemo#0" expanded="false" />
+            <element signature="class#MyWalkingRouteOverlay#0;class#RoutePlanDemo#0" expanded="false" />
+            <element signature="class#MyTransitRouteOverlay#0;class#RoutePlanDemo#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_poisearch.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+          <folding>
+            <element signature="n#LinearLayout#0;n#LinearLayout#0;n#!!top" expanded="false" />
+            <element signature="n#LinearLayout#1;n#LinearLayout#0;n#!!top" expanded="false" />
+            <element signature="n#com.baidu.mapapi.map.MapView#0;n#RelativeLayout#0;n#LinearLayout#0;n#!!top" expanded="false" />
+            <element signature="n#Button#0;n#RelativeLayout#0;n#LinearLayout#0;n#!!top" expanded="false" />
+            <element signature="n#LinearLayout#0;n#RelativeLayout#0;n#LinearLayout#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_routeplan.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="159" column="15" selection-start-line="159" selection-start-column="15" selection-end-line="159" selection-end-column="15" />
+          <folding>
+            <element signature="n#LinearLayout#0;n#LinearLayout#0;n#!!top" expanded="false" />
+            <element signature="n#LinearLayout#1;n#LinearLayout#0;n#!!top" expanded="false" />
+            <element signature="n#LinearLayout#2;n#LinearLayout#0;n#!!top" expanded="false" />
+            <element signature="n#Button#0;n#LinearLayout#2;n#LinearLayout#0;n#!!top" expanded="false" />
+            <element signature="n#Button#1;n#LinearLayout#2;n#LinearLayout#0;n#!!top" expanded="false" />
+            <element signature="n#Button#2;n#LinearLayout#2;n#LinearLayout#0;n#!!top" expanded="false" />
+            <element signature="n#LinearLayout#0;n#RelativeLayout#0;n#LinearLayout#0;n#!!top" expanded="false" />
+            <element signature="n#LinearLayout#1;n#RelativeLayout#0;n#LinearLayout#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/baidumapsdk/demo/PoiSearchDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="216" column="15" selection-start-line="216" selection-start-column="15" selection-end-line="216" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#onCreate#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="e#4612#5444#0" expanded="true" />
+            <element signature="e#5443#5444#0" expanded="true" />
+            <element signature="method#SearchButtonProcess#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="method#bookBatt#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="method#nodeClick#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="method#onGetWalkingRouteResult#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="method#onGetTransitRouteResult#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="method#onGetDrivingRouteResult#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="class#MyLocationListenner#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="method#onDestroy#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="method#onRestoreInstanceState#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="method#searchButtonProcess#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="method#onGetPoiResult#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="method#onGetSuggestionResult#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="class#MyPoiOverlay#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="e#17223#17224#0" expanded="true" />
+            <element signature="e#17247#17248#0" expanded="true" />
+            <element signature="class#MyWalkingRouteOverlay#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="class#MyDrivingRouteOverlay#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="class#MyTransitRouteOverlay#0;class#PoiSearchDemo#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/baidumapsdk/demo/RoutePlanDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="45" column="33" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
+          <folding>
+            <element signature="method#nodeClick#0;class#RoutePlanDemo#0" expanded="false" />
+            <element signature="method#changeRouteIcon#0;class#RoutePlanDemo#0" expanded="false" />
+            <element signature="method#onGetWalkingRouteResult#0;class#RoutePlanDemo#0" expanded="false" />
+            <element signature="method#onGetTransitRouteResult#0;class#RoutePlanDemo#0" expanded="false" />
+            <element signature="method#onGetDrivingRouteResult#0;class#RoutePlanDemo#0" expanded="false" />
+            <element signature="class#MyDrivingRouteOverlay#0;class#RoutePlanDemo#0" expanded="false" />
+            <element signature="class#MyWalkingRouteOverlay#0;class#RoutePlanDemo#0" expanded="false" />
+            <element signature="class#MyTransitRouteOverlay#0;class#RoutePlanDemo#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_poisearch.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+          <folding>
+            <element signature="n#LinearLayout#0;n#LinearLayout#0;n#!!top" expanded="false" />
+            <element signature="n#LinearLayout#1;n#LinearLayout#0;n#!!top" expanded="false" />
+            <element signature="n#com.baidu.mapapi.map.MapView#0;n#RelativeLayout#0;n#LinearLayout#0;n#!!top" expanded="false" />
+            <element signature="n#Button#0;n#RelativeLayout#0;n#LinearLayout#0;n#!!top" expanded="false" />
+            <element signature="n#LinearLayout#0;n#RelativeLayout#0;n#LinearLayout#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_routeplan.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="157" column="21" selection-start-line="157" selection-start-column="21" selection-end-line="157" selection-end-column="21" />
+          <folding>
+            <element signature="n#LinearLayout#0;n#LinearLayout#0;n#!!top" expanded="false" />
+            <element signature="n#LinearLayout#1;n#LinearLayout#0;n#!!top" expanded="false" />
+            <element signature="n#LinearLayout#2;n#LinearLayout#0;n#!!top" expanded="false" />
+            <element signature="n#Button#0;n#LinearLayout#2;n#LinearLayout#0;n#!!top" expanded="false" />
+            <element signature="n#Button#1;n#LinearLayout#2;n#LinearLayout#0;n#!!top" expanded="false" />
+            <element signature="n#Button#2;n#LinearLayout#2;n#LinearLayout#0;n#!!top" expanded="false" />
+            <element signature="n#LinearLayout#0;n#RelativeLayout#0;n#LinearLayout#0;n#!!top" expanded="false" />
+            <element signature="n#LinearLayout#1;n#RelativeLayout#0;n#LinearLayout#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/baidumapsdk/demo/PoiSearchDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="318" column="9" selection-start-line="318" selection-start-column="9" selection-end-line="318" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#onCreate#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="e#4612#5444#0" expanded="true" />
+            <element signature="e#5443#5444#0" expanded="true" />
+            <element signature="method#SearchButtonProcess#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="method#bookBatt#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="method#nodeClick#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="method#onGetWalkingRouteResult#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="method#onGetTransitRouteResult#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="method#onGetDrivingRouteResult#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="class#MyLocationListenner#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="method#onDestroy#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="method#onRestoreInstanceState#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="method#searchButtonProcess#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="method#onGetPoiResult#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="method#onGetSuggestionResult#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="class#MyPoiOverlay#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="e#17223#17224#0" expanded="true" />
+            <element signature="e#17247#17248#0" expanded="true" />
+            <element signature="class#MyWalkingRouteOverlay#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="class#MyDrivingRouteOverlay#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="class#MyTransitRouteOverlay#0;class#PoiSearchDemo#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/baidumapsdk/demo/CloudSearchDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/baidumapsdk/demo/CloudSearchActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_poisearch.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="79" column="15" selection-start-line="79" selection-start-column="15" selection-end-line="79" selection-end-column="15" />
+          <folding>
+            <element signature="n#LinearLayout#0;n#LinearLayout#0;n#!!top" expanded="false" />
+            <element signature="n#LinearLayout#1;n#LinearLayout#0;n#!!top" expanded="false" />
+            <element signature="n#com.baidu.mapapi.map.MapView#0;n#RelativeLayout#0;n#LinearLayout#0;n#!!top" expanded="false" />
+            <element signature="n#Button#0;n#RelativeLayout#0;n#LinearLayout#0;n#!!top" expanded="false" />
+            <element signature="n#LinearLayout#0;n#RelativeLayout#0;n#LinearLayout#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/import-summary.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1855,34 +2211,30 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-19/data/res/layout/simple_dropdown_item_1line.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_busline.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_busline.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.74925375">
           <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/app/libs/locSDK_5.2.jar!/com/baidu/location/LocationClientOption.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.66765577">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#4657#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1890,105 +2242,230 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3509434">
           <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/app/libs/baidumapapi_v3_5_0.jar!/com/baidu/mapapi/map/MyLocationData.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18867925">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/app/libs/baidumapapi_v3_5_0.jar!/com/baidu/mapapi/map/BaiduMap.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33207548">
-          <caret line="141" column="22" selection-start-line="141" selection-start-column="22" selection-end-line="141" selection-end-column="22" />
-          <folding>
-            <element signature="e#4869#4870#0" expanded="true" />
-            <element signature="e#4917#4918#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/baidumapsdk/demo/LocationDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.75">
-          <caret line="43" column="39" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1704#2510#0" expanded="true" />
-            <element signature="e#2509#2510#0" expanded="true" />
-            <element signature="e#2664#3280#0" expanded="true" />
-            <element signature="e#3279#3280#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_location.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="14.066667">
           <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_poisearch.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/baidumapsdk/demo/CloudSearchActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.6666665">
-          <caret line="79" column="15" selection-start-line="79" selection-start-column="15" selection-end-line="79" selection-end-column="15" />
+        <state vertical-scroll-proportion="0.44802868">
+          <caret line="43" column="32" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_cloud_search_demo.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/baidumapsdk/demo/CloudSearchDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.059139784">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/app/libs/baidumapapi_v3_5_0.jar!/com/baidu/mapapi/search/core/RouteLine.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.785714">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/app/libs/baidumapapi_v3_5_0.jar!/com/baidu/mapapi/map/BaiduMap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.07358491">
+          <caret line="425" column="16" selection-start-line="425" selection-start-column="16" selection-end-line="425" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/app/libs/baidumapapi_v3_5_0.jar!/com/baidu/mapapi/map/InfoWindow.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.107142">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/app/libs/baidumapapi_v3_5_0.jar!/com/baidu/mapapi/search/poi/OnGetPoiSearchResultListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28301886">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/app/libs/locSDK_5.2.jar!/com/baidu/location/BDLocationListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28301886">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/app/libs/baidumapapi_v3_5_0.jar!/com/baidu/mapapi/search/route/RoutePlanSearch.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.6603774">
+          <caret line="117" column="28" selection-start-line="117" selection-start-column="28" selection-end-line="117" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/app/libs/baidumapapi_v3_5_0.jar!/com/baidu/mapapi/search/route/PlanNode.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.428571">
+          <caret line="32" column="46" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/app/libs/baidumapapi_v3_5_0.jar!/com/baidu/mapapi/map/MyLocationData.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.5714285">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/app/libs/baidumapapi_v3_5_0.jar!/com/baidu/mapapi/search/poi/PoiDetailResult.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.821428">
+          <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
+          <folding>
+            <element signature="e#978#979#0" expanded="true" />
+            <element signature="e#1007#1008#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/app/libs/baidumapapi_v3_5_0.jar!/com/baidu/mapapi/model/LatLng.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.857142">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/baidumapsdk/demo/LocationDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5824373">
+          <caret line="111" column="50" selection-start-line="111" selection-start-column="50" selection-end-line="111" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_routeplan.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.766666">
+          <caret line="157" column="21" selection-start-line="157" selection-start-column="21" selection-end-line="157" selection-end-column="21" />
           <folding>
             <element signature="n#LinearLayout#0;n#LinearLayout#0;n#!!top" expanded="false" />
             <element signature="n#LinearLayout#1;n#LinearLayout#0;n#!!top" expanded="false" />
+            <element signature="n#LinearLayout#2;n#LinearLayout#0;n#!!top" expanded="false" />
+            <element signature="n#Button#0;n#LinearLayout#2;n#LinearLayout#0;n#!!top" expanded="false" />
+            <element signature="n#Button#1;n#LinearLayout#2;n#LinearLayout#0;n#!!top" expanded="false" />
+            <element signature="n#Button#2;n#LinearLayout#2;n#LinearLayout#0;n#!!top" expanded="false" />
+            <element signature="n#LinearLayout#0;n#RelativeLayout#0;n#LinearLayout#0;n#!!top" expanded="false" />
+            <element signature="n#LinearLayout#1;n#RelativeLayout#0;n#LinearLayout#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-19/android.jar!/android/os/Looper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.60714287">
+          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-19/android.jar!/android/app/Activity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.446429">
+          <caret line="833" column="0" selection-start-line="833" selection-start-column="0" selection-end-line="833" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/baidumapsdk/demo/RoutePlanDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="45" column="18" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="18" />
+          <folding>
+            <element signature="method#nodeClick#0;class#RoutePlanDemo#0" expanded="false" />
+            <element signature="method#changeRouteIcon#0;class#RoutePlanDemo#0" expanded="false" />
+            <element signature="method#onGetWalkingRouteResult#0;class#RoutePlanDemo#0" expanded="false" />
+            <element signature="method#onGetTransitRouteResult#0;class#RoutePlanDemo#0" expanded="false" />
+            <element signature="method#onGetDrivingRouteResult#0;class#RoutePlanDemo#0" expanded="false" />
+            <element signature="class#MyDrivingRouteOverlay#0;class#RoutePlanDemo#0" expanded="false" />
+            <element signature="class#MyWalkingRouteOverlay#0;class#RoutePlanDemo#0" expanded="false" />
+            <element signature="class#MyTransitRouteOverlay#0;class#RoutePlanDemo#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/baidumapsdk/demo/PoiSearchDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.892858">
-          <caret line="318" column="9" selection-start-line="318" selection-start-column="9" selection-end-line="318" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2820#3652#0" expanded="true" />
-            <element signature="e#3651#3652#0" expanded="true" />
-            <element signature="e#8930#8931#0" expanded="true" />
-            <element signature="e#8954#8955#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/baidumapsdk/demo/CloudSearchDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
+          <caret line="529" column="0" selection-start-line="529" selection-start-column="0" selection-end-line="529" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#onCreate#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="e#4612#5444#0" expanded="true" />
+            <element signature="e#5443#5444#0" expanded="true" />
+            <element signature="method#SearchButtonProcess#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="method#bookBatt#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="method#nodeClick#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="method#onGetWalkingRouteResult#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="method#onGetTransitRouteResult#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="method#onGetDrivingRouteResult#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="class#MyLocationListenner#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="method#onDestroy#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="method#onRestoreInstanceState#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="method#searchButtonProcess#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="method#onGetPoiResult#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="method#onGetSuggestionResult#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="class#MyPoiOverlay#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="e#17223#17224#0" expanded="true" />
+            <element signature="e#17247#17248#0" expanded="true" />
+            <element signature="class#MyWalkingRouteOverlay#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="class#MyDrivingRouteOverlay#0;class#PoiSearchDemo#0" expanded="false" />
+            <element signature="class#MyTransitRouteOverlay#0;class#PoiSearchDemo#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/baidumapsdk/demo/CloudSearchActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_poisearch.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32795697">
-          <caret line="44" column="39" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="39" />
+        <state vertical-scroll-proportion="3.1559405">
+          <caret line="144" column="55" selection-start-line="144" selection-start-column="55" selection-end-line="144" selection-end-column="55" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2010#2011#0" expanded="true" />
-            <element signature="e#2072#2406#0" expanded="true" />
-            <element signature="e#2405#2406#0" expanded="true" />
-            <element signature="e#2468#2812#0" expanded="true" />
-            <element signature="e#2811#2812#0" expanded="true" />
-            <element signature="e#2874#3162#0" expanded="true" />
-            <element signature="e#3161#3162#0" expanded="true" />
+            <element signature="n#LinearLayout#0;n#LinearLayout#0;n#!!top" expanded="false" />
+            <element signature="n#LinearLayout#1;n#LinearLayout#0;n#!!top" expanded="false" />
+            <element signature="n#com.baidu.mapapi.map.MapView#0;n#RelativeLayout#0;n#LinearLayout#0;n#!!top" expanded="false" />
+            <element signature="n#Button#0;n#RelativeLayout#0;n#LinearLayout#0;n#!!top" expanded="false" />
+            <element signature="n#LinearLayout#0;n#RelativeLayout#0;n#LinearLayout#0;n#!!top" expanded="false" />
           </folding>
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
   </component>

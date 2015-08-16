@@ -78,7 +78,7 @@ public class RoutePlanDemo extends Activity implements BaiduMap.OnMapClickListen
     }
 
     /**
-     * 发起路线规划搜索示例
+     * 发起路线规划搜索
      *
      * @param v
      */

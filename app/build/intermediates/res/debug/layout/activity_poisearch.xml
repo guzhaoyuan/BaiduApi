@@ -79,14 +79,75 @@
 
         <Button
             android:id="@+id/button1"
-            android:layout_width="54dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
             android:layout_alignParentTop="true"
             android:layout_marginRight="25dp"
             android:layout_marginTop="10dip"
             android:layout_gravity="right" />
-    </RelativeLayout>
 
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignWithParentIfMissing="false"
+            android:layout_above="@+id/PoiInfo"
+            android:layout_centerHorizontal="true">
+
+            <Button
+                android:id="@+id/pre"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="2dip"
+                android:layout_marginRight="2dip"
+                android:layout_weight="1.0"
+                android:background="@drawable/pre_"
+                android:onClick="nodeClick" />
+
+            <Button
+                android:id="@+id/next"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="2dip"
+                android:layout_marginRight="2dip"
+                android:layout_weight="1.0"
+                android:background="@drawable/next_"
+                android:onClick="nodeClick" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            android:visibility="gone"
+            android:id="@+id/PoiInfo"
+            >
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:id="@+id/gothereBtn"
+                android:text="到这儿去"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="90dp"
+                android:onClick="SearchButtonProcess"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:id="@+id/subscribeBtn"
+                android:text="预订电池"
+                android:layout_alignParentBottom="true"
+                android:layout_toLeftOf="@+id/button1"
+                android:onClick="bookBatt"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
 
 </LinearLayout><!-- From: file:/C:/Android_studio/Projects/BaiduMapsApiDemo2/app/src/main/res/layout/activity_poisearch.xml -->
