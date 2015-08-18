@@ -1,5 +1,6 @@
 package baidumapsdk.demo;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.text.Editable;
@@ -12,6 +13,8 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import org.json.*;
 
 import com.baidu.location.BDLocation;
 import com.baidu.location.BDLocationListener;
@@ -260,8 +263,11 @@ public class PoiSearchDemo extends FragmentActivity implements
      * @param v
      */
     public void bookBatt(View v){
-        Toast.makeText(PoiSearchDemo.this,"此处预订加电站电池",Toast.LENGTH_LONG).show();
-    }
+        //Toast.makeText(PoiSearchDemo.this,"此处预订加电站电池",Toast.LENGTH_LONG).show();
+		Intent intent = new Intent();
+		intent.setClass(PoiSearchDemo.this, BattStation.class);
+		startActivity(intent);
+	}
 
 	/**
 	 * 节点浏览

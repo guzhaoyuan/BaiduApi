@@ -67,7 +67,8 @@
     <string name="title_activity_cloud_search_demo">云检索使用介绍</string>
     <string name="cloud_search_tips"> \t\tLBS.云是百度地图针对LBS开发者推出的平台级服务。结合已有的地图API和SDK服务。通过开放服务端存储和计算能力,提供海量位置数据存储、检索、展示一体化解决方案。\n\n
           \t\t该服务对开发者免费开放。测试demo里写入了测试的ak。开发者可以使用测试ak查看 LBS.云检索的效果。如果开发者要使用自己的数据，请在申请ak后替换demo中的ak。\n\n
-          \t\t如有任何关于LBS.云服务的问题,诸如如何申请ak、如何存储和检索数据等，请访问百度地图官方“LBS开放平台”。地址：http://lbsyun.baidu.com/  \n</string>
+          \t\t如有任何关于LBS.云服务的问题,诸如如何申请ak、如何存储和检索数据等，请访问百度地图官方“LBS开放平台”。地址：http://lbsyun.baidu.com/  \n
+</string>
     <string name="panorama_tips">\t\t百度地图SDK为您免费提供全景图的功能。\n
       \t\t利用接口，可查询、开启并操作更丰富的全景图。\n
       \t\t以下三个示例分别向您展示了三种调启全景图的入口，您可在实际操作中灵活运用。\n
@@ -79,10 +80,15 @@
     <string name="demo_desc_share">介绍关键词查询、suggestion查询和查看餐饮类Place详情页功能</string>
     <string name="share_tip">\t\t短串分享是指，用户搜索查询后得到的每一个地理位置结果将会对应一条短串（短链接），用户可以通过短信、邮件或第三方分享组件（如微博、微信等）把短串分享给其他用户从而实现地理位置信息的分享。当其他用户收到分享的短串后，点击短串即可打开手机上的百度地图客户端或者手机浏览器进行查看。\n\n
                 \t\t例如，用户搜索“百度大厦”后通过短信使用短串分享功能把该地点分享给好友，好友点击短信中的短串“http://j.map.baidu.com/XLCrk”后可以调起百度地图客户端或者手机浏览器查看“百度大厦”的地理位置信息。\n\n
-                \t\t目前短串分享功能暂时开放了“POI搜索结果分享”和“反向地理编码结果分享”，日后会开放更多的功能，欢迎广大开发者使用短</string>
+                \t\t目前短串分享功能暂时开放了“POI搜索结果分享”和“反向地理编码结果分享”，日后会开放更多的功能，欢迎广大开发者使用短
+</string>
     <string name="title_activity_panorama_activity_main">全景图功能</string>
     <string name="title_activity_panorama_poi_selector">通过POI进入全景图</string>
     <string name="title_activity_panorama_geo_selector">通过地理坐标进入全景图</string>
     <string name="title_activity_panorama_demo">全景图功能</string>
+    <string name="title_activity_batt_station">BattStation</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
 
 </resources>

@@ -2,25 +2,25 @@
 <items version="2" >
 
     <item
-        jar="C:\Android_studio\Projects\BaiduMapsApiDemo2\app\libs\locSDK_5.2.jar"
+        jar="C:\Users\gzy\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
         jumboMode="false"
         revision="23.0.0 rc2"
-        sha1="389047997db28fcb848dc4247c5590a08b7ff769">
-        <dex dex="C:\Android_studio\Projects\BaiduMapsApiDemo2\app\build\intermediates\pre-dexed\debug\locSDK_5.2-31c637862b486159329f606629dbf03ecde1a352.jar" />
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="C:\Android_studio\Projects\BaiduMapsApiDemo2\app\build\intermediates\pre-dexed\release\support-v4-19.1.0-60f41175cf7a6aad3988e1eb0d036863c17a538f.jar" />
     </item>
     <item
         jar="C:\Android_studio\Projects\BaiduMapsApiDemo2\app\libs\baidumapapi_v3_5_0.jar"
         jumboMode="false"
         revision="23.0.0 rc2"
         sha1="ba79500bb64218f10b5fd0d5ea54503b2bf6b3bb">
-        <dex dex="C:\Android_studio\Projects\BaiduMapsApiDemo2\app\build\intermediates\pre-dexed\debug\baidumapapi_v3_5_0-73065e0632e4201f2051482d18ce3cfe4a831e24.jar" />
+        <dex dex="C:\Android_studio\Projects\BaiduMapsApiDemo2\app\build\intermediates\pre-dexed\release\baidumapapi_v3_5_0-73065e0632e4201f2051482d18ce3cfe4a831e24.jar" />
     </item>
     <item
-        jar="C:\Users\gzy\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jar="C:\Android_studio\Projects\BaiduMapsApiDemo2\app\libs\locSDK_5.2.jar"
         jumboMode="false"
         revision="23.0.0 rc2"
-        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
-        <dex dex="C:\Android_studio\Projects\BaiduMapsApiDemo2\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-60f41175cf7a6aad3988e1eb0d036863c17a538f.jar" />
+        sha1="389047997db28fcb848dc4247c5590a08b7ff769">
+        <dex dex="C:\Android_studio\Projects\BaiduMapsApiDemo2\app\build\intermediates\pre-dexed\release\locSDK_5.2-31c637862b486159329f606629dbf03ecde1a352.jar" />
     </item>
 
 </items>
