@@ -1,5 +1,9 @@
 package baidumapsdk.demo;
 
+//android:value="R3hQfrnr2eAnNh6CUshkRO4m"  is for my digital signature
+//android:value="sC5t7ch51iwjoqLpsS7UgOOD"  is for adb digital signature
+
+
 import android.app.Activity;
 import android.content.BroadcastReceiver;
 import android.content.Context;

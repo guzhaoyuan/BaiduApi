@@ -49,7 +49,7 @@ public class BattStation extends Activity {
                                         Intent intent = new Intent();
                                         intent.setClass(BattStation.this,PoiSearchDemo.class);
                                         startActivity(intent);
-                                        finish();
+                                        BattStation.this.finish();
                                     }
                                 }).setNegativeButton("取消", null)
                         .show();
