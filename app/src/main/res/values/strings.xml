@@ -90,5 +90,11 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_info">info</string>
+    <string name="title_activity_user_info">user_info</string>
+    <string name="title_activity_info2">info2</string>
+    <string name="title_activity_intelligent_electrombile">Intelligent_electrombile</string>
+    <string name="userinfo">gzy</string>
+    <string name="title_activity_deal_info">DealInfo</string>
 </resources>

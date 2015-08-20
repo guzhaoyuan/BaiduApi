@@ -65,6 +65,8 @@ import com.baidu.mapapi.search.sug.SuggestionSearch;
 import com.baidu.mapapi.search.sug.SuggestionSearchOption;
 import com.baidu.mapapi.map.MyLocationConfiguration.LocationMode;
 
+import java.util.logging.Handler;
+
 /**
  * 演示poi搜索功能
  */

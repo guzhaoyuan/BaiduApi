@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 19
-    buildToolsVersion "23.0.0 rc2"
+    compileSdkVersion 22
+    buildToolsVersion "22.0.1"
 
     defaultConfig {
         applicationId "baidumapsdk.demo"
-        minSdkVersion 7
-        targetSdkVersion 10
+        minSdkVersion 15
+        targetSdkVersion 22
     }
 
     buildTypes {
@@ -19,7 +19,7 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:support-v4:19.1.0'
+    compile 'com.android.support:appcompat-v7:22.2.0'
     compile files('libs/baidumapapi_v3_5_0.jar')
     compile files('libs/locSDK_5.2.jar')
 }

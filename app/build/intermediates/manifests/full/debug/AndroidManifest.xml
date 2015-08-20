@@ -5,9 +5,11 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="7"
-        android:targetSdkVersion="10" />
+        android:minSdkVersion="15"
+        android:targetSdkVersion="22" />
 
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
     </uses-permission>
     <uses-permission android:name="android.permission.INTERNET" >
@@ -50,7 +52,7 @@
         android:resizeable="true"
         android:smallScreens="true" />
 
-    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:name="baidumapsdk.demo.DemoApplication"
@@ -58,18 +60,22 @@
         android:label="@string/app_name" >
         <meta-data
             android:name="com.baidu.lbsapi.API_KEY"
-            android:value="R3hQfrnr2eAnNh6CUshkRO4m" />
+            android:value="sC5t7ch51iwjoqLpsS7UgOOD" />
 
         <activity
-            android:name="baidumapsdk.demo.BMapApiDemoMain"
-            android:configChanges="orientation|keyboardHidden"
-            android:label="BaiduMapSDKDemo"
-            android:screenOrientation="portrait" >
+            android:name="baidumapsdk.demo.Intelligent_electrombile"
+            android:label="@string/title_activity_intelligent_electrombile" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name="baidumapsdk.demo.BMapApiDemoMain"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="BaiduMapSDKDemo"
+            android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name="baidumapsdk.demo.BaseMapDemo"
@@ -225,6 +231,14 @@
         <activity
             android:name="baidumapsdk.demo.BattStation"
             android:label="@string/title_activity_batt_station" >
+        </activity>
+        <activity
+            android:name="baidumapsdk.demo.info"
+            android:label="@string/title_activity_info" >
+        </activity>
+        <activity
+            android:name="baidumapsdk.demo.DealInfo"
+            android:label="@string/title_activity_deal_info" >
         </activity>
     </application>
 
