@@ -39,17 +39,26 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
         android:layout_height="50dip"
-        android:orientation="vertical" >
-
+        android:orientation="horizontal" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:text="elec_left:"
+            android:layout_weight="3" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="70%"
+            android:layout_weight="3" />
         <Button
             android:id="@+id/search"
-            android:layout_width="fill_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="12"
+            android:layout_weight="4"
             android:background="@drawable/button_style"
             android:onClick="searchButtonProcess"
             android:padding="10dip"
-            android:text="查看附近加油站" />
+            android:text="查看换电站" />
 
         <!--<Button-->
             <!--android:id="@+id/map_next_data"-->

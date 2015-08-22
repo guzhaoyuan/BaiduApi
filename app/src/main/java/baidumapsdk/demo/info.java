@@ -9,6 +9,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.Bundle;
+import android.os.Message;
 import android.os.SystemClock;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
@@ -43,6 +44,7 @@ public class info extends Activity {
     private List<String> showList = new ArrayList<String>();//‘~’ 写法简直酷炫
     private ArrayAdapter<String> btInfoAdapter;
     private TextView dealinfo;
+
     // 扫描到的蓝牙设备，用于创建Socket
     private List<BluetoothDevice> remoteBtList = new ArrayList<>();
 
@@ -290,6 +292,7 @@ public class info extends Activity {
         public void onReceive(Context arg0, Intent intent) {
             // TODO Auto-generated method stub
             progressBar.setVisibility(View.INVISIBLE);
+            switchBtn.setChecked(false);
             if (remoteBtList.size() == 0) {
                 Toast.makeText(info.this, "没有扫描到有蓝牙设备，请重试...",
                         Toast.LENGTH_SHORT).show();

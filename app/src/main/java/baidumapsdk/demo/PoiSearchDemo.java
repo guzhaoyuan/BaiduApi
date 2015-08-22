@@ -1,5 +1,9 @@
 package baidumapsdk.demo;
 
+import android.bluetooth.BluetoothAdapter;
+import android.bluetooth.BluetoothDevice;
+import android.bluetooth.BluetoothSocket;
+import android.content.BroadcastReceiver;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
@@ -65,7 +69,14 @@ import com.baidu.mapapi.search.sug.SuggestionSearch;
 import com.baidu.mapapi.search.sug.SuggestionSearchOption;
 import com.baidu.mapapi.map.MyLocationConfiguration.LocationMode;
 
+import java.io.IOException;
+import java.io.OutputStream;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Set;
+import java.util.UUID;
 import java.util.logging.Handler;
+import baidumapsdk.demo.Bluetooth_service;
 
 /**
  * 演示poi搜索功能
@@ -116,6 +127,11 @@ public class PoiSearchDemo extends FragmentActivity implements
 //	Button goThereBtn = (Button)findViewById(R.id.gothereBtn);
 //	Button subscribeBtn = (Button)findViewById(R.id.subscribeBtn);
     LinearLayout PoiInfo;
+
+	//蓝牙相关
+	BluetoothSocket btSocket;
+	Bluetooth_service btServer ;
+
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
@@ -188,6 +204,8 @@ public class PoiSearchDemo extends FragmentActivity implements
 		option.setScanSpan(1000);
 		mLocClient.setLocOption(option);
 		mLocClient.start();
+
+
 		/**
 		 * 当输入关键字变化时，动态更新建议列表
 		 */
@@ -220,11 +238,22 @@ public class PoiSearchDemo extends FragmentActivity implements
 //								.keyword(cs.toString()).city(city));
 //			}
 //		});
-
+		//requestForConnection();
 	}
 
+
+//	public void requestForConnection(){
+//		outputStream = info.outputStream;
+//		try{
+//			outputStream.write(Bluetooth_service.getRequestForConnectionPack());
+//		}catch (IOException e){
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+//	}
+
 	/**
-	 * 发起路线规划搜索示例
+	 * 发起路线规划搜索
 	 *
 	 * @param v
 	 */
@@ -423,13 +452,13 @@ public class PoiSearchDemo extends FragmentActivity implements
 
 	/**
 	 * 定位我的位置监听类
-	 * 收到
+	 * 收到后把我的位置移到中心
 	 */
 	public class MyLocationListenner implements BDLocationListener {
 
 		@Override
 		public void onReceiveLocation(BDLocation location) {
-			// map view 销毁后不在处理新接收的位置
+			// map view 销毁后不再处理新接收的位置
 			if (location == null || mMapView == null)
 				return;
 			locData = new MyLocationData.Builder()
@@ -478,7 +507,6 @@ public class PoiSearchDemo extends FragmentActivity implements
 	}
 
 	/**
-	 * 影响搜索按钮点击事件
 	 * 按下“查看附近加油站按钮”，执行此函数
 	 * 搜索附近的加油站
 	 * @param v
@@ -496,6 +524,11 @@ public class PoiSearchDemo extends FragmentActivity implements
 				.pageNum(load_Index));
 	}
 
+	/**
+	 * 点击查看下一组POI地点
+	 * 一组10个
+	 * @param v
+	 */
 //	public void goToNextPage(View v) {
 //		load_Index++;
 //		searchButtonProcess(null);

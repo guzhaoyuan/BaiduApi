@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.Window;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
@@ -20,7 +21,8 @@ public class Intelligent_electrombile extends Activity {
     private EditText username;
     private EditText password;
     private Button login;
-    private CheckBox cb;
+    private CheckBox cb1;
+    private CheckBox cb2;
     private TextView loginLockedTV;
     private TextView attemptsLeftTV;
     private TextView numberOfRemainingLoginAttemptsTV;
@@ -29,6 +31,7 @@ public class Intelligent_electrombile extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        this.requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_intelligent_electrombile);
         setupVariables();
         map = LoginService.getSavedUserInfo(this);
@@ -40,7 +43,7 @@ public class Intelligent_electrombile extends Activity {
 
 
     public void authenticateLogin(View view) {
-        if(cb.isChecked()){
+        if(cb1.isChecked()){
             boolean result = LoginService.saveUserInfo(this,username.getText().toString(),password.getText().toString());
             if(result)
                 Toast.makeText(this, "Save Successfully", Toast.LENGTH_SHORT).show();
@@ -78,7 +81,8 @@ public class Intelligent_electrombile extends Activity {
         attemptsLeftTV = (TextView) findViewById(R.id.attemptsLeftTV);
         numberOfRemainingLoginAttemptsTV = (TextView) findViewById(R.id.numberOfRemainingLoginAttemptsTV);
         numberOfRemainingLoginAttemptsTV.setText(Integer.toString(numberOfRemainingLoginAttempts));
-        cb = (CheckBox)findViewById(R.id.checkbox);
+        cb1 = (CheckBox)findViewById(R.id.checkbox1);
+        cb2 = (CheckBox)findViewById(R.id.checkbox2);
     }
 
     @Override

@@ -68,10 +68,20 @@
         android:layout_height="wrap_content"
         android:text="remenber password"
         android:checked="true"
-        android:id="@+id/checkbox"
+        android:id="@+id/checkbox1"
         android:layout_above="@+id/numberOfRemainingLoginAttemptsTV"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
+
+    <CheckBox
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Login Automatically"
+        android:checked="true"
+        android:id="@+id/checkbox2"
+        android:layout_below="@+id/checkbox1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
     <TextView
         android:id="@+id/attemptsLeftTV"
