@@ -240,6 +240,10 @@
             android:name="baidumapsdk.demo.DealInfo"
             android:label="@string/title_activity_deal_info" >
         </activity>
+
+        <service
+            android:name="baidumapsdk.demo.Bluetooth_service"
+            android:enabled="true" />
     </application>
 
 </manifest>

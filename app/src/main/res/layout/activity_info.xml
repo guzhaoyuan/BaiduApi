@@ -119,7 +119,6 @@
         android:layout_height="wrap_content"
         android:text="当前交易"
         android:id="@+id/DealInfo"
-        android:visibility="invisible"
         android:layout_alignBottom="@+id/chargeBtn"
         android:layout_toLeftOf="@+id/back" />
 

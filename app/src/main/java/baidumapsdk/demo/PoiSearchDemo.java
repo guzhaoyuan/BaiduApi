@@ -4,11 +4,17 @@ import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
 import android.bluetooth.BluetoothSocket;
 import android.content.BroadcastReceiver;
+import android.content.ComponentName;
 import android.content.Intent;
+import android.content.ServiceConnection;
 import android.os.Bundle;
+import android.os.IBinder;
+import android.os.Message;
+import android.os.Handler;
 import android.support.v4.app.FragmentActivity;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
@@ -75,7 +81,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 import java.util.UUID;
-import java.util.logging.Handler;
+import java.util.logging.LogRecord;
+
 import baidumapsdk.demo.Bluetooth_service;
 
 /**
@@ -84,6 +91,7 @@ import baidumapsdk.demo.Bluetooth_service;
 public class PoiSearchDemo extends FragmentActivity implements
 		OnGetPoiSearchResultListener, OnGetSuggestionResultListener,BaiduMap.OnMapClickListener,
 		OnGetRoutePlanResultListener {
+	private static final String TAG = "PoiSearchDemo";
 
 	private PoiSearch mPoiSearch = null;
 	private SuggestionSearch mSuggestionSearch = null;
@@ -129,16 +137,63 @@ public class PoiSearchDemo extends FragmentActivity implements
     LinearLayout PoiInfo;
 
 	//蓝牙相关
-	BluetoothSocket btSocket;
-	Bluetooth_service btServer ;
+	//Bluetooth_service btService ;
+	Bluetooth_service.myBinder myBinder;
+	public Handler handler = new Handler() {
+		public void handleMessage(Message msg){
+			switch (msg.what){
+				case Constants.MESSAGE_STATE_CHANGE:
+					if(msg.arg1==-1){
+						Toast.makeText(PoiSearchDemo.this,"blurtooth connection break",Toast.LENGTH_SHORT).show();
+					}else
+					Toast.makeText(PoiSearchDemo.this,"bluetooth connection status changed",Toast.LENGTH_SHORT).show();
+					break;
+//				case Constants.MESSAGE_DEVICE_NAME:
+//					Toast.makeText(PoiSearchDemo.this,"scan bluetooth device overtime",Toast.LENGTH_SHORT).show();
+//					break;
+				case Constants.MESSAGE_READ:
+					Toast.makeText(PoiSearchDemo.this,new String((byte[])msg.obj),Toast.LENGTH_SHORT).show();
+					break;
+				case Constants.MESSAGE_SCAN_OVERTIME:
+					Toast.makeText(PoiSearchDemo.this,"scan bluetooth device overtime",Toast.LENGTH_SHORT).show();
+					break;
+				default:
+					break;
+			}
+		}
+	};
 
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_poisearch);
+		Log.v(TAG,"poi Starts");
+		//蓝牙相关初始化
+		//btService = new Bluetooth_service(handler);
+		/**
+		 * 此处进行Bluetooth_service的绑定
+		 * bindService需要ServiceConnection类作为参数
+		 * 该类里的方法指定了绑定后和绑定解除后的操作
+		 */
+		Intent intent = new Intent(PoiSearchDemo.this,Bluetooth_service.class);
+		bindService(intent, new ServiceConnection() {
+			@Override
+			public void onServiceConnected(ComponentName name, IBinder service) {
+				Log.v(TAG, "onServiceConnected");
+				myBinder = (Bluetooth_service.myBinder) service;
+				myBinder.set_handler(handler);
+				myBinder.start_Bluetooth();
+			}
+
+			@Override
+			public void onServiceDisconnected(ComponentName name) {
+				Log.v(TAG, "onServiceDisconnected");
+			}
+		}, BIND_AUTO_CREATE);
 
 		//初始化UI相关组件
+		Log.v(TAG,"init component");
 		requestLocButton = (Button) findViewById(R.id.button1);
 		mCurrentMode = LocationMode.NORMAL;requestLocButton.setText("普通");
         PoiInfo = (LinearLayout)findViewById(R.id.PoiInfo);
@@ -487,6 +542,11 @@ public class PoiSearchDemo extends FragmentActivity implements
 	@Override
 	protected void onResume() {
 		super.onResume();
+//		if(btService != null){
+//			if(btService.getState()==Bluetooth_service.STATE_NONE){
+//				btService.start();
+//			}
+//		}
 	}
 
 	@Override
@@ -690,6 +750,5 @@ public class PoiSearchDemo extends FragmentActivity implements
 			return null;
 		}
 	}
-
 
 }

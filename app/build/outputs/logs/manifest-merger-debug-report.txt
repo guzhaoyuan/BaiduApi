@@ -413,3 +413,9 @@ ADDED from AndroidManifest.xml:239:9
 		ADDED from AndroidManifest.xml:241:13
 	android:name
 		ADDED from AndroidManifest.xml:240:13
+service#baidumapsdk.demo.Bluetooth_service
+ADDED from AndroidManifest.xml:244:9
+	android:enabled
+		ADDED from AndroidManifest.xml:246:13
+	android:name
+		ADDED from AndroidManifest.xml:245:13
